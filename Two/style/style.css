@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     font-family: 'Open Sans', sans-serif;
 }
@@ -44,7 +49,7 @@ body{
     font-weight: 700;
     font-size: 72px;
     line-height: 98px;
-    margin: 0 auto;
+    margin-bottom: 14px;
 }
 
 .description_button{
@@ -73,4 +78,33 @@ body{
     font-weight: 400;
     font-size: 36px;
     line-height: 49px;
+}
+
+.input_wrapper{
+    position: relative;
+}
+
+.input{
+    width: 647px;
+    height: 96px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    padding: 36px 0 11px 34px;
+    box-sizing: border-box;
+}
+
+.label{
+    position: absolute;
+    padding: 14px 0 63px 31px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.input::placeholder{
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 49px;
+    color: #000000;
 }
