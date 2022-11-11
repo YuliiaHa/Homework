@@ -48,8 +48,7 @@ body{
     color: #FFFFFF;
     font-weight: 700;
     font-size: 72px;
-    line-height: 98px;
-    margin-bottom: 14px;
+    line-height: 60px;
 }
 
 .description_button{
@@ -62,6 +61,7 @@ body{
     font-weight: 700;
     font-size: 36px;
     line-height: 49px;
+    margin-top: 14px;
 }
 
 .description{
@@ -82,6 +82,46 @@ body{
 
 .input_wrapper{
     position: relative;
+    margin-bottom: 41px;
+}
+
+.text{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 216px 0 123px;
+    text-align: center;
+
+    color: #000000;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 49px;
+}
+
+.text::after{
+    content:'';
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #BFDEFB;
+    bottom: -1470px;
+    right: 300px;
+}
+
+.text::before{
+    content:'';
+    position: absolute;
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    background-color: #5C98AB;
+    bottom: -1135px;
+    left: 370px;
+}
+
+.form_section{
+    max-width: 647px;
+    margin: 123px auto 0;
 }
 
 .input{
@@ -107,4 +147,17 @@ body{
     font-size: 36px;
     line-height: 49px;
     color: #000000;
+}
+
+.form_button{
+    width: 647px;
+    height: 92px;
+    background: #5C98AB;
+    border-radius: 5px;
+    
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+    color: #FFFFFF;
+    
 }
